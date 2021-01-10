@@ -7,7 +7,7 @@ if (isApplication) {
 apply from: 'upload.gradle'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         if (isApplication) {
             applicationId "com.leiguoqiang.handwritten"

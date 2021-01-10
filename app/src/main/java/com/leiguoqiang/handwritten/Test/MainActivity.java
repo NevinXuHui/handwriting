@@ -53,19 +53,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.pen).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                handwritingview.i(StrokeStatusConstant.STROKE_STATUS_PEN);
-            }
-        });
-        findViewById(R.id.imageview).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((ImageView) v).setImageBitmap(handwritingview.n());
-//                final Bitmap bitmap = handwritingview.getBitmap();
-//                new Thread(new Runnable() {
-//                    @Override
 //                    public void run() {
 //                        String path = ShotUtils.getPathWithBitmap(bitmap, System.currentTimeMillis() + "");
 //                        Log.i("11======", "=="+path);
