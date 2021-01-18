@@ -54,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-<<<<<<< HEAD:app/src/main/java/com/leiguoqiang/handwritten/Test/MainActivity.java
-=======
         findViewById(R.id.pen).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
 //                final Bitmap bitmap = handwritingview.getBitmap();
 //                new Thread(new Runnable() {
 //                    @Override
->>>>>>> parent of 5edb68b... 代码进行伪混淆处理:app/src/main/java/com/leiguoqiang/handwriting/Test/MainActivity.java
 //                    public void run() {
 //                        String path = ShotUtils.getPathWithBitmap(bitmap, System.currentTimeMillis() + "");
 //                        Log.i("11======", "=="+path);
